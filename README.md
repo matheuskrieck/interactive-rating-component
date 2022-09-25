@@ -8,7 +8,7 @@
       Live
     </a>
     <span> | </span>
-    <a href="" target="_blank" color="white">
+    <a href="https://www.frontendmentor.io/solutions/interactive-rating-component-with-vanillajs-Gu9tckbvcS" target="_blank" color="white">
       Solution
     </a>
     <span> | </span>
