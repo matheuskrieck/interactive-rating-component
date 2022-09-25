@@ -1,0 +1,216 @@
+:root {
+    --dark-blue: #262E38;
+    --light-grey: #969FAD;
+    --medium-gray: #7C8798;
+    --orange: #FC7614;
+    --pure-white: #FFFFFF;
+    --very-dark-blue: #131518;
+    --back-gradient:  radial-gradient(98.96% 98.96% at 50% 0%, #232A34 0%, #181E27 100%);
+}
+
+html,body {
+    background-color: var(--very-dark-blue);
+    color: var(--pure-white);
+    font-family: "Overpass";
+    height: 100vh;
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items:center;
+    margin:0;
+    padding:0;
+}
+
+.container {
+    background: var(--back-gradient);
+    width: 20.4375rem;
+    height: 22.5rem;
+    border-radius: 15px;
+}
+
+.star-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--dark-blue);
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 1.5rem 0 1rem 1.5rem;
+    border-radius: 50px;
+}
+
+.rating-container h1 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.875rem;
+    margin-left: 1.5rem;
+    color: var(--pure-white);
+}
+
+.rating-container p {
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+    color: var(--light-grey);
+    margin: 0 1.5rem 1.5rem 1.5rem;
+}
+
+.rating-btn-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1.375rem;
+    margin-bottom: 1.5rem;
+}
+
+.rating-btn {
+    border-radius: 3.125rem;
+    width: 2.625rem;
+    height: 2.625rem;
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    background-color: var(--dark-blue);
+    color: var(--medium-gray);
+    border: 0;
+}
+
+.rating-btn:hover {
+    cursor: pointer;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-btn {
+    width: 17.4375rem;
+    height: 2.8125rem;
+    border-radius: 1.4063rem;
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 1.125rem;
+    letter-spacing: 0.1167rem;
+    background-color: var(--orange);
+    color: var(--pure-white);
+    border: 0;
+}
+
+.submit-btn:hover {
+    cursor: pointer;
+    background-color: var(--pure-white);
+    color: var(--orange);
+}
+
+.thank-you-container {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2.125rem;
+    text-align: center;
+}
+
+.thank-you-container img {
+    width: 9rem;
+    height: 6rem;
+}
+
+figcaption {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.rating-selection {
+    padding: 0.25rem 1.25rem;
+    border-radius: 1.4063rem;
+    background-color: var(--dark-blue);
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: var(--orange);
+}
+
+.thank-you-container h1 {
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 1.875rem;
+}
+
+.thank-you-container p {
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+    color: var(--light-grey);
+    margin: 0.4375rem 0 2rem 0;
+}
+
+@media screen and (min-width: 480px) { 
+    .container {
+        width: 25.75rem;
+        height: 26rem;
+    }
+
+    .star-icon {
+        margin-bottom: 1.875rem;
+        width: 3rem;
+        height: 3rem;
+    }
+
+    h1 {
+        font-size: 1.75rem;
+        line-height: 2.1875rem;
+        margin-left: 2rem;
+        margin-bottom: 0.4375rem;
+    }
+
+    p {
+        font-size: 0.9375rem;
+        line-height: 1.5rem;
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .rating-btn-container {
+        padding: 0 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .rating-btn {
+        height: 3.1875rem;
+        width: 3.1875rem;
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .submit-btn {
+        width: 21.3125rem;
+        height: 2.8125rem;
+        font-size: 0.9375rem;
+        line-height: 1.1875rem;
+        letter-spacing: 0.125rem;
+    }
+
+    .thank-you-container img {
+        width: 10.125rem;
+        height: 6.75rem;
+    }
+
+    figcaption {
+        margin-top: 2.25rem;
+        margin-bottom: 2.25rem;
+    }
+
+    .thank-you-container h1 {
+        font-size: 1.75rem;
+        line-height: 2.1875rem;
+    }
+
+    .thank-you-container p {
+        font-size: 0.9375rem;
+        line-height: 1.5rem;
+    }
+}
+
+    
