@@ -117,11 +117,6 @@ html,body {
     height: 6rem;
 }
 
-figcaption {
-    margin-top: 1.5rem;
-    margin-bottom: 1.5rem;
-}
-
 .rating-selection {
     padding: 0.25rem 1.25rem;
     border-radius: 1.4063rem;
@@ -129,6 +124,8 @@ figcaption {
     font-weight: 400;
     font-size: 0.875rem;
     color: var(--orange);
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
 
 .thank-you-container h1 {
@@ -158,14 +155,14 @@ figcaption {
         height: 3rem;
     }
 
-    h1 {
+    .rating-container h1 {
         font-size: 1.75rem;
         line-height: 2.1875rem;
         margin-left: 2rem;
         margin-bottom: 0.4375rem;
     }
 
-    p {
+    .rating-container p {
         font-size: 0.9375rem;
         line-height: 1.5rem;
         margin-left: 2rem;
@@ -197,9 +194,11 @@ figcaption {
         height: 6.75rem;
     }
 
-    figcaption {
+    .rating-selection {
         margin-top: 2.25rem;
         margin-bottom: 2.25rem;
+        font-size: 15px;
+        line-height: 24px;
     }
 
     .thank-you-container h1 {
@@ -208,8 +207,8 @@ figcaption {
     }
 
     .thank-you-container p {
-        font-size: 0.9375rem;
-        line-height: 1.5rem;
+        font-size: 15px;
+        line-height: 24px;
     }
 }
 
