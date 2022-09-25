@@ -41,6 +41,6 @@ submitButton.addEventListener("click", () => {
     if (userRating != undefined) {
         ratingContainer.style.display = "none"
         thankYouContainer.style.display = "flex"
-        ratingOutput.innerText = userRating
+        ratingOutput.innerText = ` ${userRating} `;
     }
 })
